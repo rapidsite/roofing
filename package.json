@@ -1,15 +1,15 @@
 {
     "name": "genial",
     "version": "2.6.0",
-    "description": "Genial - React Next Multi-Niche Landing Template",
+    "description": "Rapidsite - Roofing Demo",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
     },
-    "author": "EnvyTheme.com",
-    "license": "ISC",
+    "author": "",
+    "license": "",
     "dependencies": {
         "aos": "^2.3.4",
         "axios": "^1.3.3",
