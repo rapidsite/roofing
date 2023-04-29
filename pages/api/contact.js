@@ -10,6 +10,9 @@ const transporter = {
 
 export const config = {
     runtime: 'edge',
+    unstable_allowDynamic: [
+      '/node_modules/ajv/**'
+    ],
 }
 
 const mailer = nodemailer.createTransport(sgTransport(transporter));
