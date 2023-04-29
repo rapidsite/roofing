@@ -8,6 +8,10 @@ const transporter = {
   },
 };
 
+export const config = {
+    runtime: 'edge',
+}
+
 const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
